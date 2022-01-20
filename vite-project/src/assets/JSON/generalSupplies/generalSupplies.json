@@ -1,0 +1,16 @@
+[
+  {
+    "label": "钻石",
+    "value": "minecraft:diamond",
+    "src": "https://img-blog.csdnimg.cn/47f839435b4a4ad3bcd30bed7107dacc.png",
+    "price": "免费白嫖",
+    "penCount": ""
+  },
+  {
+    "label": "钻石稿",
+    "value": "minecraft:diamond_pickaxe",
+    "src": "https://img-blog.csdnimg.cn/00fdf2c58e014ca8b53ce0e14ff2aa22.png",
+    "price": "免费白嫖",
+    "penCount": ""
+  }
+]

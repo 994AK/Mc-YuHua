@@ -1,0 +1,30 @@
+[
+  {
+    "label": "火龙蛋",
+    "value": "iceandfire:dragonegg_red",
+    "src": "https://img-blog.csdnimg.cn/28b6c83b462b4f869860b6d468a5fad5.png#pic_center",
+    "price": "123",
+    "penCount": "0"
+  },
+  {
+    "label": "黄龙蛋",
+    "value": "iceandfire:dragonegg_bronze",
+    "src": "https://img-blog.csdnimg.cn/05f7b36a1f6d4949b70a81a5e4b2f52e.png",
+    "price": "123",
+    "penCount": "0"
+  },
+  {
+    "label": "绿龙蛋",
+    "value": "iceandfire:dragonegg_green",
+    "src": "https://img-blog.csdnimg.cn/05cdc03048a047d58ec8b6afe4aedc96.png",
+    "price": "123",
+    "penCount": "0"
+  },
+  {
+    "label": "白龙蛋",
+    "value": " iceandfire:dragonegg_white",
+    "src": "https://img-blog.csdnimg.cn/0d175eee177846479e6651580bf307e7.png",
+    "price": "123",
+    "penCount": "0"
+  }
+]
