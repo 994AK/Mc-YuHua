@@ -1,16 +1,58 @@
 [
   {
-    "label": "钻石",
-    "value": "minecraft:diamond",
-    "src": "https://img-blog.csdnimg.cn/47f839435b4a4ad3bcd30bed7107dacc.png",
-    "price": "免费白嫖",
-    "penCount": ""
+    "label": "面包",
+    "value": "minecraft:bread",
+    "src": "https://img-blog.csdnimg.cn/f8935adc924c4fcb9f0d652f2c5b9b31.png",
+    "price": 1,
+    "penCount": "",
+    "quantity": 64
   },
   {
-    "label": "钻石稿",
-    "value": "minecraft:diamond_pickaxe",
-    "src": "https://img-blog.csdnimg.cn/00fdf2c58e014ca8b53ce0e14ff2aa22.png",
-    "price": "免费白嫖",
-    "penCount": ""
+    "label": "美西螈",
+    "value": "minecraft:axolotl_bucket",
+    "src": "https://img-blog.csdnimg.cn/c139d7ca32f84fce833c151be88cf109.gif",
+    "price": 50,
+    "penCount": "",
+    "quantity": 1
+  },
+  {
+    "label": "石头",
+    "value": "minecraft:stone",
+    "src": "https://img-blog.csdnimg.cn/283ea4e9f9b4442b877ab68d185b8aa6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAcXFfMzYwMDkyMjA=,size_8,color_FFFFFF,t_70,g_se,x_16",
+    "price": 1,
+    "penCount": "",
+    "quantity": 64
+  },
+  {
+    "label": "羊毛",
+    "value": "minecraft:white_wool",
+    "src": "https://img-blog.csdnimg.cn/265b3368532c46e6b969649b6d365dd8.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAcXFfMzYwMDkyMjA=,size_8,color_FFFFFF,t_70,g_se,x_16",
+    "price": 5,
+    "penCount": "",
+    "quantity": 64
+  },
+  {
+    "label": "末影箱",
+    "value": "minecraft:ender_chest",
+    "src": "https://img-blog.csdnimg.cn/7ee29448f04741f3b9eb6b6d9d2de5f3.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAcXFfMzYwMDkyMjA=,size_8,color_FFFFFF,t_70,g_se,x_16",
+    "price": 20,
+    "penCount": "",
+    "quantity": 1
+  },
+  {
+    "label": "鞘翅",
+    "value": "minecraft:elytra",
+    "src": "https://img-blog.csdnimg.cn/b648d1c8c66f48458d8cd08065007da8.png",
+    "price": 200,
+    "penCount": "",
+    "quantity": 1
+  },
+  {
+    "label": "潜影盒",
+    "value": "minecraft:shulker_box",
+    "src": "https://img-blog.csdnimg.cn/98ca89c228794ec995fbf21bb366d739.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAcXFfMzYwMDkyMjA=,size_8,color_FFFFFF,t_70,g_se,x_16",
+    "price": 20,
+    "penCount": "",
+    "quantity": 1
   }
 ]

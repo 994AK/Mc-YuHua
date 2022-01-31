@@ -33,8 +33,6 @@
           <article class="media notification is-primary  ">
             <figure class="media-left">
                 <span class="icon is-medium">
-                 <ion-icon name="hand-left"></ion-icon>
-                   <img src="../assets/hand-left.svg" alt="" class="icon-in"/>
                 </span>
             </figure>
             <div class="media-content">
@@ -44,10 +42,10 @@
                   无氪金行为,公益服
                 </p>
                 <p class="is-size-6 mb-2">
-                  丰富的MOD玩法
+                  网页商店,在床上也能买
                 </p>
                 <p class="is-size-6 mb-2">
-                  提供服务器种子
+                  无插件!原版味!
                 </p>
               </div>
             </div>
@@ -56,18 +54,15 @@
         <div class="column ">
           <article class="media notification is-warning  ">
             <figure class="media-left">
-                <span class="icon is-medium ">
-                  <img src="../assets/rocket-outline.svg" alt="" class="icon-in"/>
-                </span>
             </figure>
             <div class="media-content">
               <div class="content">
                 <h1 class="title is-size-4">福利待遇?</h1>
                 <p class="is-size-6 mb-2">
-                  玩家有丰富的礼包,渡过前期
+                  玩家友好生成,成为好朋友
                 </p>
                 <p class="is-size-6 mb-2">
-                  开局送巨龙礼包,开局一条龙
+                  OP人员,管理24小时服务
                 </p>
                 <p class="is-size-6 mb-2">
                   良好的游戏环境,低延迟流畅
@@ -79,6 +74,7 @@
       </div>
     </div>
   </section>
+
 </template>
 
 <style scoped>

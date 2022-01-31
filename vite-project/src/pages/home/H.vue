@@ -89,36 +89,36 @@ const enchantValue = reactive([
       <n-select v-model:value="Classification" :options="options" />
     </n-space>
     <div class="columns is-multiline">
-      <home-advanced v-if="Classification === '高级物资'"/>
+<!--      <home-advanced v-if="Classification === '高级物资'"/>-->
       <home-general-supplies v-if="Classification === '普通物资'" />
-      <home-pet v-if="Classification === '宠物物资'"/>
-      <home-ae-mek v-if="Classification === '核电物资'"/>
+<!--      <home-pet v-if="Classification === '宠物物资'"/>-->
+<!--      <home-ae-mek v-if="Classification === '核电物资'"/>-->
     </div>
   </section>
-  <section class="section has-background-warning has-text-black">
-    <h1 class="is-size-1">附魔</h1>
-    <h2 class="subtitle">
-      附魔你手中的物品
-    </h2>
+<!--  <section class="section has-background-warning has-text-black">-->
+<!--    <h1 class="is-size-1">附魔</h1>-->
+<!--    <h2 class="subtitle">-->
+<!--      附魔你手中的物品-->
+<!--    </h2>-->
 
-    <div class="columns is-multiline ">
-      <div
-          class="column m-5  is-one-fifth"
-          v-for="item in enchantValue"
-      >
-        <button
-            class="button is-success is-outlined is-large is-fullwidth "
-            @click="enchantClick(item)"
-        >
-          {{item.label}}{{item.grade || " ?"}}
-        </button>
-        <n-space vertical class="mt-2">
-          <n-select  placeholder="请选择附魔的等级"  v-model:value="item.grade" size="small" :options="optionsDr" />
-        </n-space>
-      </div>
+<!--    <div class="columns is-multiline ">-->
+<!--      <div-->
+<!--          class="column m-5  is-one-fifth"-->
+<!--          v-for="item in enchantValue"-->
+<!--      >-->
+<!--        <button-->
+<!--            class="button is-success is-outlined is-large is-fullwidth "-->
+<!--            @click="enchantClick(item)"-->
+<!--        >-->
+<!--          {{item.label}}{{item.grade || " ?"}}-->
+<!--        </button>-->
+<!--        <n-space vertical class="mt-2">-->
+<!--          <n-select  placeholder="请选择附魔的等级"  v-model:value="item.grade" size="small" :options="optionsDr" />-->
+<!--        </n-space>-->
+<!--      </div>-->
 
-    </div>
-  </section>
+<!--    </div>-->
+<!--  </section>-->
 
 
 

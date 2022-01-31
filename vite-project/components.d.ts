@@ -5,6 +5,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Classification: typeof import('./src/components/Classification.vue')['default']
+    Fast: typeof import('./src/pages/fast/Fast.vue')['default']
     H: typeof import('./src/pages/home/H.vue')['default']
     Home: typeof import('./src/pages/home/Home.vue')['default']
     HomeAdvanced: typeof import('./src/pages/home/menu/HomeAdvanced.vue')['default']
@@ -17,10 +18,6 @@ declare module 'vue' {
     Login: typeof import('./src/pages/login/Login.vue')['default']
     NavUser: typeof import('./src/pages/Nav/NavUser.vue')['default']
     NavView: typeof import('./src/pages/Nav/NavView.vue')['default']
-    NForm: typeof import('naive-ui')['NForm']
-    NFormItem: typeof import('naive-ui')['NFormItem']
-    NSelect: typeof import('naive-ui')['NSelect']
-    NSpace: typeof import('naive-ui')['NSpace']
     Register: typeof import('./src/pages/register/Register.vue')['default']
   }
 }

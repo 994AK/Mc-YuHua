@@ -38,9 +38,18 @@ const handleValidateClick = (e: any) => {
   formRef.value.validate((errors: any) => {
     if (!errors) {
       post('/user/login', formValue.value).then(v => {
-        UserStore.changeUserInfo({token: v.data.token})
-        router.push('/')
-        alert(v.msg)
+        console.log(v)
+        UserStore.changeUserInfo({
+          token: v.data.token,
+          info:v.data
+        })
+        if(v.code === 401) {
+          alert(v.msg)
+        } else {
+          router.push('/')
+          alert(v.msg)
+        }
+
       })
     } else {
       console.log(errors)

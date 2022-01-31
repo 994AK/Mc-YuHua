@@ -9,11 +9,10 @@
       <div class="navbar-item">
         <div class="buttons">
           <router-link to="/register" class="button is-white">
-
-            <strong>Sign up</strong>
+            <strong>注册</strong>
           </router-link>
           <router-link  class="button is-light" to="/login">
-            Log in
+            <strong>登录</strong>
           </router-link>
         </div>
       </div>

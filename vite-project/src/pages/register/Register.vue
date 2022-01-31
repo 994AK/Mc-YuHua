@@ -2,9 +2,11 @@
 
 import {ref, Ref} from 'vue'
 import {post} from '@/utils/request'
+import {useRouter} from 'vue-router'
 
 const formRef: Ref<any> = ref(null)
 // const message = useMessage()
+const router = useRouter()
 
 const formValue = ref({
   user: {
@@ -40,6 +42,7 @@ const handleValidateClick = (e: any) => {
       post('/user/register', formValue.value)
           .then(v => {
             if(v.code === 201) {
+              router.push('/login')
               alert(v.msg)
 
             }

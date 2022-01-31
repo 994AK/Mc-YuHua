@@ -4,10 +4,10 @@
 
 </script>
 <template>
-<!--  <hello-world />-->
-  <nav-view />
-<!-- <home />-->
-  <router-view />
+  <!--  <hello-world />-->
+  <nav-view/>
+  <!-- <home />-->
+  <router-view/>
 </template>
 
 <style>
